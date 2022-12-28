@@ -1,11 +1,11 @@
 ---
 permalink: /
-title: "Research"
-excerpt: "About me"
+title: ""
+excerpt: "Research"
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
+  - /_research/
+  - /research.md
 ---
 
 I am a 4th year PhD candidate at Stanford under Prof. Grace Gao in the [Navigation and Autonomous Vehicles (NAV) Lab](https://navlab.stanford.edu/). 
