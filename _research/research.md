@@ -1,19 +1,61 @@
 ---
-permalink: /
+layout: archive
+permalink: /research/
 title: ""
-excerpt: "Research"
 author_profile: true
 redirect_from: 
-  - /_research/
+  - /research/
   - /research.md
 ---
 
-I am a 4th year PhD candidate at Stanford under Prof. Grace Gao in the [Navigation and Autonomous Vehicles (NAV) Lab](https://navlab.stanford.edu/). 
-My research focuses on motion planning and SLAM for robots using reachability and geometric representations. 
+<!-- My research focuses on  -->
 
-In my free time...
+<!-- ============================================== -->
+## Simultaneous Localization and Mapping
+------------------------------------------
 
-<!-- A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge. -->
+### PlaneSLAM
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer blandit aliquet neque id accumsan. Praesent vel lorem tincidunt, vestibulum neque sit amet, malesuada nulla. Suspendisse magna ante, pulvinar ac turpis eget, pretium convallis velit. Maecenas a eros ac diam molestie rhoncus a eget ipsum. Maecenas vel hendrerit diam. Integer commodo ipsum vitae eleifend pharetra. Integer eget vulputate mi.
+
+<p align="middle">
+  <img src="{{site.url}}/files/planeslam_env.jpg" width="320" hspace="20" />
+  <img src="{{site.url}}/files/planeslam_map.png" width="400" /> 
+</p>
+<!-- TODO: replace with GIF -->
+
+[video](https://www.youtube.com/watch?v=ApqB6rlaen4)
+[[paper]](https://arxiv.org/abs/2209.08248) 
+[[code]](https://github.com/Stanford-NavLab/planeslam)
+
+
+### LiDAR GPS Factor Graphs
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer blandit aliquet neque id accumsan. Praesent vel lorem tincidunt, vestibulum neque sit amet, malesuada nulla.
+
+
+<!-- ============================================== -->
+## Reachability Analysis
+------------------------------------------
+
+### Multi-robot trajectory planning
+NorCal Control Workshop: Multi-Robot Trajectory Planning using Reachability Analysis 
+[video](https://www.youtube.com/watch?v=i1VyQX4kDoQ)
+
+
+
+### Novel representations: Ellipsotopes
+
+<img src="{{site.url}}/files/etopes.png" width="320" style="float: right" />
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer blandit aliquet neque id accumsan. Praesent vel lorem tincidunt, vestibulum neque sit amet, malesuada nulla.
+
+
+### Neural network verification: RSS paper
+
+<img src="{{site.url}}/files/nn_safety.png" width="320" style="float: right" />
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer blandit aliquet neque id accumsan. Praesent vel lorem tincidunt, vestibulum neque sit amet, malesuada nulla.
+
+
 
