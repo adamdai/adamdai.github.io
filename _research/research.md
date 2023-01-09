@@ -8,7 +8,14 @@ redirect_from:
   - /research.md
 ---
 
-<!-- My research focuses on  -->
+{% comment %} 
+    TODO:
+    - Add overview paragraph at start
+    - add Chimera paper, include factor graph image/GIF
+    - GIF for ellipsotopes: path planning example, minkowski sum gaussian with box, then show reachability
+    - GIF for constrained NN: show output over training time
+{% endcomment %}
+
 
 <!-- ============================================== -->
 ## Simultaneous Localization and Mapping
@@ -20,11 +27,16 @@ LiDAR is a powerful sensor, but point cloud maps generated from LiDAR SLAM quick
 to store. By converting point clouds to sets of planes, we can generate much more lightweight maps.
 
 <p align="middle">
-  <img src="{{site.url}}/files/planeslam_env.jpg" width="320" hspace="20" />
-  <img src="{{site.url}}/files/planeslam_map.png" width="400" /> 
-  <!-- <img src="{{site.url}}/files/planeslam.gif" width="750" /> -->
+  <!-- <img src="{{site.url}}/files/planeslam_env.jpg" width="320" hspace="20" />
+  <img src="{{site.url}}/files/planeslam_map.png" width="400" />  -->
+
+  <img src="{{site.url}}/files/rover_planeslam.gif" width="800" />
+  
+  <!-- <video width="960" height="320" controls>
+    <source src="{{site.url}}/files/rover_planeslam.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video> -->
 </p>
-<!-- TODO: replace with GIF -->
 
 These plane-based maps also lend themselves to fast collision-checking for motion planning purposes. Given a trajectory,
 we can quickly check if the trajectory intersects any planes in the map. This is much faster than checking for collisions with points in the point cloud map.

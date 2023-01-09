@@ -5,6 +5,11 @@ permalink: /publications/
 author_profile: true
 ---
 
+{% comment %} 
+    TODO:
+    - embed paper links to title
+{% endcomment %}
+
 ### Journal Papers
 <!-- ============ -->
 1. Kousik, S., **Dai, A.**, & Gao, G. (2022). Ellipsotopes: Uniting Ellipsoids and Zonotopes for Reachability Analysis and Fault Detection. *IEEE Transactions on Automatic Control*. [[paper]](https://ieeexplore.ieee.org/document/9832489) [[code]](https://github.com/Stanford-NavLab/ellipsotopes) <!-- July 2022 -->
